@@ -1,11 +1,11 @@
 .component {
-    padding: 10px;
+    margin-left: auto;
   }
   
-  nav {
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.link {
+  color: white;
+  &:nth-child(1){
+    position: absolute;
+    left: 0;
   }
+}
